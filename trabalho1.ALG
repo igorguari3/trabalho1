@@ -14,10 +14,11 @@ fimfuncao
 funcao subtraiElementos(elemento1, elemento2: real): real
 
 var
-
+subtracao : real
 inicio
+subtracao <- elemento1 - elemento2
 
-
+retorne subtracao
 fimfuncao
 
 funcao divideElementos(elemento1, elemento2: real): real
@@ -55,16 +56,16 @@ Inicio
          escreval("Numero 2: ")
          leia(num2)
 
-         escreva("A soma de", num1," e", num2," é igual a: ", somaElementos(num1, num2))
+         escreva("A soma de", num1," e", num2," Ã© igual a: ", somaElementos(num1, num2))
 
       caso 2
-         escreval("Subtração")
+         escreval("SubtraÃ§Ã£o")
          escreval("Numero 1: ")
          leia(num1)
          escreval("Numero 2: ")
          leia(num2)
 
-         escreva("A subtração de", num1," e", num2," é igual a: ", subtraiElementos(num1, num2))
+         escreva("A subtraÃ§Ã£o de", num1," e", num2," Ã© igual a: ", subtraiElementos(num1, num2))
 
       caso 3
          escreval("Divisao")
@@ -73,16 +74,16 @@ Inicio
          escreval("Numero 2: ")
          leia(num2)
 
-         escreva("A divisao de", num1," e", num2," é igual a: ", divideElementos(num1, num2))
+         escreva("A divisao de", num1," e", num2," Ã© igual a: ", divideElementos(num1, num2))
 
       caso 4
-         escreval("Multiplicação")
+         escreval("MultiplicaÃ§Ã£o")
          escreval("Numero 1: ")
          leia(num1)
          escreval("Numero 2: ")
          leia(num2)
 
-         escreva("A multiplicação de", num1," e", num2," é igual a: ", multiplicaElementos(num1, num2))
+         escreva("A multiplicaÃ§Ã£o de", num1," e", num2," Ã© igual a: ", multiplicaElementos(num1, num2))
 
       fimescolha
    fimenquanto
