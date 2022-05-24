@@ -1,5 +1,5 @@
 #Trabalho1
-===============================
+
 Algoritmo "Trabalho1"
 Var
 
