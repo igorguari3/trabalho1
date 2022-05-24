@@ -36,9 +36,11 @@ fimfuncao
 funcao multiplicaElementos(elemento1, elemento2: real): real
 
 var
-
+ multiplicacao: real
 inicio
-
+ multiplicacao <- elemento1 * elemento2
+ 
+ retorne multiplicacao
 fimfuncao
 Inicio
 
