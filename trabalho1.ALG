@@ -28,11 +28,14 @@ fimfuncao
 funcao divideElementos(elemento1, elemento2: real): real
 
 var
+divisao : real
+
 
 inicio
+divisao <- elemento1 / elemento2
+retorne divisao
 
 fimfuncao
-
 funcao multiplicaElementos(elemento1, elemento2: real): real
 
 var
