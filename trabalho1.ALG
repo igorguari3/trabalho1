@@ -18,10 +18,11 @@ fimfuncao
 funcao subtraiElementos(elemento1, elemento2: real): real
 
 var
-
+subtracao : real
 inicio
+subtracao <- elemento1 - elemento2
 
-
+retorne subtracao
 fimfuncao
 
 funcao divideElementos(elemento1, elemento2: real): real
