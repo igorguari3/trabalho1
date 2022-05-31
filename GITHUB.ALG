@@ -22,12 +22,7 @@ funcao verificaImpar(f_numeros: inteiro) : inteiro
 var
 
 inicio
-para i <- 0 ate 9 passo 1 faca
-   se (f_numeros[i] % = 1) entao
-      escreval ("O numero", numeros[i], " é impar")
-   fimse
-fimpara
-   retorne f_numeros
+
 fimfuncao
 
 funcao verificaPrimo(f_numeros: inteiro) : inteiro
