@@ -1,13 +1,13 @@
 Algoritmo "trab"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 30/05/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    numeros,numeros_par: vetor[0..9] de inteiro
    i,opcao: inteiro
 funcao verificaPar(f_numeros: inteiro) : inteiro
@@ -22,7 +22,12 @@ funcao verificaImpar(f_numeros: inteiro) : inteiro
 var
 
 inicio
-
+para i <- 0 ate 9 passo 1 faca
+   se (f_numeros[i] % = 1) entao
+      escreval ("O numero", numeros[i], " Ã© impar")
+   fimse
+fimpara
+   retorne f_numeros
 fimfuncao
 
 funcao verificaPrimo(f_numeros: inteiro) : inteiro
