@@ -14,23 +14,14 @@ funcao verificaPar(f_numeros: inteiro) : inteiro
 var
 
 inicio
-
-fimfuncao
-
-funcao verificaImpar(f_numeros: inteiro) : inteiro
-
-var
-
-inicio
-
-fimfuncao
-
-funcao verificaPrimo(f_numeros: inteiro) : inteiro
-
-var
-
-inicio
-
+   para i <- 0 ate 9 passo 1 faca
+      se(numeros[i] % 2 = 0) entao
+         numeros_par[i] <- numeros[i]
+         escreval("O numero ",numeros_par[i]," é par")
+      fimse
+   fimpara
+   
+   retorne f_numeros
 fimfuncao
 
 Inicio
@@ -49,16 +40,14 @@ Inicio
    enquanto (opcao <> 9) faca
       escreval(" ")
       escreval("1-Numeros Primos")
-      escreval("2-Verificar Pares")
-      escreval("3-Verificar Impares")
+      escreval("2-Verificar Impares/Pares")
       escreval("9- Finalizar programa")
       leia(opcao)
       escolha(opcao)
       caso 1
 
       caso 2
-      
-      caso 3
+         escreval(" ", verificaPar(numeros[i]))
 
       fimescolha
    fimenquanto
